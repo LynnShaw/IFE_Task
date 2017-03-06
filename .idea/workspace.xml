@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0981444-d3de-496e-b02b-cbe7a1baae95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XiaoWei/task2/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/XiaoWei/pic.jpg" afterPath="$PROJECT_DIR$/XiaoWei/task1/pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/XiaoWei/task1.html" afterPath="$PROJECT_DIR$/XiaoWei/task1/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/XiaoWei/task2.html" afterPath="$PROJECT_DIR$/XiaoWei/task2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XiaoWei/task2/index.html" afterPath="$PROJECT_DIR$/XiaoWei/task2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XiaoWei/task2/main.css" afterPath="$PROJECT_DIR$/XiaoWei/task2/main.css" />
     </list>
     <ignored path="IFE_Task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +38,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XiaoWei/task2/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state vertical-scroll-proportion="-13.464286">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,18 +48,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XiaoWei/task2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49716446">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XiaoWei/task1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.75">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.60491496">
+              <caret line="220" column="25" selection-start-line="220" selection-start-column="25" selection-end-line="220" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -96,8 +83,8 @@
         <option value="$PROJECT_DIR$/XiaoWei/task1/task1.html" />
         <option value="$PROJECT_DIR$/XiaoWei/task2/task2.html" />
         <option value="$PROJECT_DIR$/XiaoWei/task1/index.html" />
-        <option value="$PROJECT_DIR$/XiaoWei/task2/index.html" />
         <option value="$PROJECT_DIR$/XiaoWei/task2/main.css" />
+        <option value="$PROJECT_DIR$/XiaoWei/task2/index.html" />
       </list>
     </option>
   </component>
@@ -107,8 +94,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="584" />
-    <option name="y" value="52" />
+    <option name="x" value="969" />
+    <option name="y" value="165" />
     <option name="width" value="1056" />
     <option name="height" value="989" />
   </component>
@@ -220,13 +207,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\WebstormProjects\IFE_Task\XiaoWei" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LynnShaw\WebstormProjects\IFE_Task\XiaoWei\task2" />
       <recent name="C:\Users\LynnShaw\WebstormProjects\IFE_Task\XiaoWei" />
       <recent name="C:\Users\LynnShaw\WebstormProjects\IFE_Task\XiaoWei\task1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Code\WebstormProjects\IFE_Task\XiaoWei" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.task1.html">
@@ -349,7 +336,13 @@
       <option name="project" value="LOCAL" />
       <updated>1488719957953</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="task2">
+      <created>1488791941768</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488791941768</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -362,11 +355,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="584" y="52" width="1056" height="989" extended-state="0" />
+    <frame x="969" y="165" width="1056" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13441296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278272" sideWeight="0.5030628" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33206108" sideWeight="0.49693722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -375,7 +369,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28727272" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -400,7 +393,8 @@
     <MESSAGE value="create new" />
     <MESSAGE value="create" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -533,16 +527,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XiaoWei/task2/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state vertical-scroll-proportion="-13.464286">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XiaoWei/task2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49716446">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.60491496">
+          <caret line="220" column="25" selection-start-line="220" selection-start-column="25" selection-end-line="220" selection-end-column="25" />
           <folding />
         </state>
       </provider>

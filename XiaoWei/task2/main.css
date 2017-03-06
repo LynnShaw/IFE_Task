@@ -1,10 +1,60 @@
-.block{
+.block {
     margin: 20px;
     padding: 20px;
     background: #FFF;
     box-shadow: 3px 3px #858585;
 }
-.
-.paragraph{
-    text-indent: 2em;
+
+h3 {
+    color: gray;
 }
+
+.author {
+    color: gray;
+    font-size: small;
+    text-indent: 0;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+div.pic {
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid;
+    margin: 20px;
+    text-align: center;
+    width: 360px;
+    height: 260px;
+}
+
+div.pic img {
+    vertical-align: middle;
+}
+
+table {
+    width: 100%;
+    border: solid #CCCCCC;
+    border-width: 0px 1px 0px 1px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px #CCCCCC solid;
+}
+
+thead {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+tfoot {
+    background-color: #CCCCCC;
+}
+
