@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regex</title>
+    <script type="application/javascript">
+        function foo(){
+            x = document.getElementById("telephone").value;
+//            alert(x);
+            pat = new RegExp("^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(18[0,5-9]))\\d{8}$");
+            document.getElementById("result").innerHTML = pat.test(x);
+        }
+        function foo1(){
+            x = document.getElementById("str").value;
+            pat = new RegExp("(?:^|\s)\b([A-Za-z]+(?:-[A-Za-z]+)*)\s+\1\b(?=\s|$)")
+            document.getElementById("result1").innerHTML = pat.test(x);
+        }
+    </script>
+</head>
+<body>
+    <div>
+    请输入手机号码：<input type="text" name="telephone" id="telephone"/>
+    <input type="button" value="提交" onclick="foo()">
+    结果：<span id="result"></span>
+    </div>
+    <div>
+        请输入字符串：<input type="text" name="telephone" id="str"/>
+        <input type="button" value="提交" onclick="foo1()">
+        结果：<span id="result1"></span>
+    </div>
+</body>
+</html>
