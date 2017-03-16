@@ -12,8 +12,9 @@
         }
         function foo1(){
             x = document.getElementById("str").value;
-            pat = new RegExp("(?:^|\s)\b([A-Za-z]+(?:-[A-Za-z]+)*)\s+\1\b(?=\s|$)")
-            document.getElementById("result1").innerHTML = pat.test(x);
+            var patstr = /\b([a-zA-Z]+)\b\s+\1\b/;
+            pat = new RegExp(patstr);
+            document.getElementById("result1").innerHTML = pat.test(x.trim());
         }
     </script>
 </head>
