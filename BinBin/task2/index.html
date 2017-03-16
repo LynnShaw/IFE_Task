@@ -23,20 +23,15 @@
         ["成都", 90],
         ["西安", 100]
     ];
-    for(i in aqiData){
-        if(aqiData[i][1]>60){
-            document.getElementById("aqi-list").innerHTML += "<li>"+aqiData[i]+"</li>";
+
+    data = aqiData.sort(function(a,b){return b[1]-a[1]})
+    var x=["第一名：","第二名：","第三名：","第四名：","第五名：","第六名："];
+    for(i in data){
+        if(data[i][1]>60){
+            document.getElementById("aqi-list").innerHTML += "<li>"+x[i]+data[i]+"</li>";
         }
     }
-    (function () {
 
-        /*
-         在注释下方编写代码
-         遍历读取aqiData中各个城市的数据
-         将空气质量指数大于60的城市显示到aqi-list的列表中
-         */
-
-    })();
 
 </script>
 </body>
