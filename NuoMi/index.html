@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>Regex</title>
     <script type="application/javascript">
-        function foo(){
+        function foo() {
             x = document.getElementById("telephone").value;
 //            alert(x);
             pat = new RegExp("^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(18[0,5-9]))\\d{8}$");
             document.getElementById("result").innerHTML = pat.test(x);
         }
-        function foo1(){
+        function foo1() {
             x = document.getElementById("str").value;
             var patstr = /\b([a-zA-Z]+)\b\s+\1\b/;
             pat = new RegExp(patstr);
@@ -19,15 +19,15 @@
     </script>
 </head>
 <body>
-    <div>
+<div>
     请输入手机号码：<input type="text" name="telephone" id="telephone"/>
     <input type="button" value="提交" onclick="foo()">
     结果：<span id="result"></span>
-    </div>
-    <div>
-        请输入字符串：<input type="text" name="telephone" id="str"/>
-        <input type="button" value="提交" onclick="foo1()">
-        结果：<span id="result1"></span>
-    </div>
+</div>
+<div>
+    请输入字符串：<input type="text" name="telephone" id="str"/>
+    <input type="button" value="提交" onclick="foo1()">
+    结果：<span id="result1"></span>
+</div>
 </body>
 </html>
