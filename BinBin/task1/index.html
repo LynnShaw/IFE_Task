@@ -6,25 +6,29 @@
 </head>
 <body>
 
-    <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
-    <button id="button" onclick="function()">确认填写</button>
-
-    <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+    <h3>污染城市列表</h3>
+    <ul id="aqi-list">
+        <!--
+            <li>第一名：福州（样例），10</li>
+              <li>第二名：福州（样例），10</li> -->
+    </ul>
 
     <script type="text/javascript">
-
-        function() {
-            /*
-             在注释下方写下代码
-             给按钮button绑定一个点击事件
-             在事件处理函数中
-             获取aqi-input输入的值，并显示在aqi-display中
-             */
-
-
-
-        };
-
+        var aqiData = [
+            ["北京", 90],
+            ["上海", 50],
+            ["福州", 10],
+            ["广州", 50],
+            ["成都", 90],
+            ["西安", 100]
+        ];
+        data = aqiData.sort(function(a,b){return b[1]-a[1]})
+        var x=["第一名：","第二名：","第三名：","第四名：","第五名：","第六名："];
+        for(i in data){
+            if(data[i][1]>60){
+                document.getElementById("aqi-list").innerHTML += "<li>"+x[i]+data[i]+"</li>";
+            }
+        }
     </script>
 </body>
 </html>
