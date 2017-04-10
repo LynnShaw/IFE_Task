@@ -207,33 +207,49 @@
         </div>
     </div>
     <div class="block">
-        <p>
-        <blockquote>
+        <form>
             <h2>这里以后是个侧栏，这是侧栏的标题</h2>
-        </blockquote>
-        </p>
-        <p>
-        <h2>侧栏注册窗口标题</h2>
-        </p>
-        <p>请输入邮箱地址：<input type="email" value="这是一个文本输入框"/></p>
-        <p>邮箱地址请按要求格式输入</p>
-        <p>请输入密码：<input type="password" value="这是一个文本输入框"/>
-            请重复输入密码：<input type="password" value="这是一个文本输入框"/>
-        </p>
-        <p>密码请为6-16位英文数字</p>
-        <p>
-            性别：<input type="radio" name="sex">男<input type="radio" name="sex">女
-            城市：
-            <select>
-                <option>北京</option>
-                <option>上海</option>
-                <option>成都</option>
-            </select>
-            爱好：<input type="checkbox" name="hobits">运动
-            <input type="checkbox" name="hobits">艺术
-            <input type="checkbox" name="hobits">科学
-            个人描述：<textarea>这是一个多行输入框，输入您的个人描述</textarea>
-        </p>
+            <div>
+                <div class="message">请输入邮箱地址：</div><input class="bottom" type="email" value="这是一个文本输入框"/>
+            </div>
+            <div class="information">邮箱地址请按要求格式输入</div>
+            <div>
+            <div>
+                <div class="message">请输入密码：</div>
+                <input class="bottom" type="password" placeholder="这是一个文本输入框"/></div>
+            <div>
+                <div class="message">请重复输入密码：</div>
+                <input class="bottom" type="password" placeholder="这是一个文本输入框"/></div>
+            </div>
+            <div class="information">密码请为6-16位英文数字</div>
+            <div>
+                <div>
+                    <div>
+                        <div class="message">性别：</div>
+                        <input type="radio" name="sex">男<input type="radio" name="sex">女
+                    </div>
+                    <div>
+                        <div class="message">城市：</div>
+                        <select>
+                            <option>北京</option>
+                            <option>上海</option>
+                            <option>成都</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div class="message">爱好：</div>
+                        <input type="checkbox" name="hobits">运动
+                        <input type="checkbox" name="hobits">艺术
+                        <input type="checkbox" name="hobits">科学
+                    </div>
+                </div>
+                <div>
+                    <div class="message">个人描述：</div>
+                    <textarea>这是一个多行输入框，输入您的个人描述</textarea></div>
+            </div>
+            >
+            <input type="submit" value="提交">
+        </form>
     </div>
 
     <footer>

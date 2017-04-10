@@ -1,8 +1,9 @@
 .block {
-    margin: 20px;
+    margin: 40px;
     padding: 20px;
     background: #FFF;
     box-shadow: 3px 3px #858585;
+    line-height: 1.5;
 }
 
 h3 {
@@ -58,3 +59,63 @@ tfoot {
     background-color: #CCCCCC;
 }
 
+.block input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    background-color: #3355D0;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #3355D0;
+    font-size: 20px;
+}
+
+.block h2{
+    color: #000;
+    display: block;
+    border-left: 4px solid #ccc;
+    text-indent: 1em;
+    font-size: 20px;
+}
+
+.block form{
+    margin: 20px;
+    font-size: 14px;
+}
+
+.block .message{
+    width: 30%;
+    /*靠左的长度为30%的span,span里文字靠右，方框跟在span后面*/
+    text-align: right;
+    display: inline-block;
+    /*具有block的宽度高度特性又具有inline的同行特性。*/
+
+    margin-right: 20px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+/* 文字与输入框对齐*/
+.block .bottom{
+    vertical-align: bottom;
+}
+.block .information{
+    color: #ccc;
+    margin-left: 32%;
+    margin-top: 10px;
+}
+.block form input[type="radio"]{
+    margin-top: 13px;
+}
+.block form select{
+    margin-top: 13px;
+}
+.block form input[type="checkbox"]{
+    margin-top: 13px;
+}
+.block textarea{
+    margin-top: 13px;
+    height: 100px;
+    width: 50%;
+}
